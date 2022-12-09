@@ -1,0 +1,23 @@
+.foot{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fb1;
+    color: #fff;
+}
+.name_logo{
+    h2{
+        color: red;
+    }
+}
+
+.location{
+    border: 1px solid #ccc;
+    background-color:#a10000;
+    padding: 5px;
+}
+
+@media only screen and (max-width:840px) {
+    .foot{
+        display: block;
+    }
+}

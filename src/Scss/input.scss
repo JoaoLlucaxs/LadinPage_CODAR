@@ -1,0 +1,20 @@
+    
+@mixin Input-style {
+    &:focus,
+    &:hover{
+        outline: none;
+        border-color: #a10000;
+        box-shadow: 0 0 0 3px #fea;
+        background: #fff;
+    }
+}
+
+
+.input{
+    border: 1px solid #ccc;
+    outline: none;
+    @include Input-style();
+    padding: 10px;
+    margin-right: 1.0rem;
+    border-radius: 4px;
+}
