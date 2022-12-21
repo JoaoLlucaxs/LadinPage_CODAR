@@ -2,17 +2,18 @@
 .section{
     max-width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     justify-content: space-around;
+    margin-top: 2.0rem;
 }
 
 .img_page{
     img{
         width: 400px;
-        margin-top: 10rem;
     }
 }
 .text_page{
-    margin-top: 10rem;
     h1{
         color:#a10000;
         font-weight: bold;
@@ -36,7 +37,6 @@
 .section_Tel{
     padding: 20px;
 }
-
 @media only screen and (max-width:840px) {
     .section{
        display: block;

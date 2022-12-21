@@ -2,6 +2,7 @@
 @import './home.scss';
 @import './Button.scss';
 @import './input.scss';
+@import './Plans.scss';
 @import './footer.scss';
 
 body{
@@ -16,4 +17,34 @@ ul,li{
     list-style: none;
 }
 a{text-decoration: none;}
+
+
+.animeLeft{
+    transform: translateX(-20px);
+    opacity: 0;
+    animation:animeLeft .3s forwards;
+}
+
+@keyframes animeLeft{
+    to{
+        transform: initial;
+        opacity: initial;
+    }
+}
+
+.loading{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 10px solid  #ffba00;
+    border-right-color: transparent;
+    animation: loading 1s infinite;
+}
+@keyframes loading{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
 
