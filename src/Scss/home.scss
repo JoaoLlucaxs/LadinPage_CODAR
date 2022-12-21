@@ -22,12 +22,15 @@
 }
 .details{
     display: flex;
+    height: 100vh;
     align-items: center;
-    margin-top: 10rem;
     justify-content: space-around;
 
     svg{
         margin-right: 0.5rem;
+    }
+    ul,li{
+        padding: 10px;
     }
 }
 .ilustrator img{
