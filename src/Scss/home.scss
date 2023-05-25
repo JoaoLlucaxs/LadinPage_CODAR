@@ -14,10 +14,17 @@
     }
 }
 .text_page{
-    h1{
-        color:#a10000;
+    h2{
+        font-family: Oswald,'sans-serif';
+        color: #176585;
+    }
+    p{
+        color:#176585;
         font-weight: bold;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
+    }
+    span{
+        border-bottom: 1px solid #cccc;
     }
 }
 .details{
@@ -34,7 +41,7 @@
     }
 }
 .ilustrator img{
-    width: 450px;
+    width: 150px;
 }
 
 .section_Tel{
@@ -64,7 +71,7 @@
     .details{
         display: block;
     }
-    .ilustrator img{
+    .details img{
         width: 100%;
     }
 }

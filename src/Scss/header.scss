@@ -1,4 +1,4 @@
-$color:#a10000;
+$color:#176585;
 
 header{
     display: flex;
@@ -13,7 +13,7 @@ h3{
     cursor: pointer;
 
     span{
-        color:#fb1;
+        color:#27b1bf;
         &:hover{
             color:#fff;
             transition: .5s;
@@ -28,14 +28,17 @@ h3{
     font-weight: bold;
    }
    button:nth-child(4){
-    background-color: #fb1;
+    background-color:#27b1bf;
     border-radius: 10px;
     padding: 10px;
     border: none;
     &:hover{
-        background-color: rgb(238, 184, 46);
+        background-color: #fff;
         transition: .5s;
     }
+   }
+   a:hover{
+    color:#e2dfdf;
    }
    a{
     color: #fff;
@@ -52,7 +55,11 @@ h3{
     opacity: 0;
     font-size: 1.8rem;
 }
-
+button{
+    border: none;
+    background-color: #176585;
+    border-radius: 2px solid;
+}
 
 @media only screen and (max-width:768px) {
     .nav-btn{

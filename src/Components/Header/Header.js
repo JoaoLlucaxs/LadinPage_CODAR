@@ -17,14 +17,11 @@ function Header() {
 
   return (
     <header>
-           <h3>CO<span>D</span>AR</h3>
-
+           <h3>SOCIAL<span>MEN</span>TE</h3>
            <nav className="links" ref={navRef}>
               <a href='/'>Inicio</a>
-              <a href='/'>Serviços</a>
-              <a href='/'>Contato</a>
               <button onClick={clickModal}>
-              <a href='/'>Planos</a>
+              <Link to='/details'>Referência</Link>
               </button>    
               
                     <button className='nav-btn nav-close-btn' onClick={showNaVbar}>

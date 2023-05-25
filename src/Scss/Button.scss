@@ -3,16 +3,16 @@
     &:hover,
     &:focus{
         outline: none;
-        box-shadow: 0 0 0 3px #fea ,0 0 0 4px #fb1;
+        box-shadow: 0 0 0 3px #36cecc ,0 0 0 4px #176585;
     }
 }
 
 .children-btn{
     font-size: 1rem;
-    border: none;
+    border-left: 1px solid #36cecc;
     border-radius: 0.4rem;
-    background-color: #fb1;
-    color: #764701;
+    background-color: #fff;
+    color: #000;
     cursor: pointer;
     padding: 0.8rem 1.2rem;
     box-sizing: border-box;

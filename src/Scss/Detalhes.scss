@@ -1,0 +1,12 @@
+.container{
+    display: block;
+}
+.cont-1{
+  text-align: center
+  ;
+}
+@media only screen and (max-width:840px) {
+    .container{
+       display: block;
+    }
+}

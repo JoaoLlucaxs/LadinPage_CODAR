@@ -1,13 +1,13 @@
 import React from 'react'
 import{Routes,Route} from 'react-router-dom'
 import Home from '../pages/Home/Home'
-import BudGet from '../pages/Budget/Budget'
+import { Detalhes } from '../Components/Detalhes/Detalhes'
 
 function route() {
   return (
    <Routes>
     <Route path='/' element={<Home/>}/>
-    <Route path='/budget' element={<BudGet/>}/>
+    <Route path='/details' element={<Detalhes/>}/>
    </Routes>
   )
 }
